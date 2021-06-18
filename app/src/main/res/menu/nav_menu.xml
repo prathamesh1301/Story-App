@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Home"
+        android:id="@+id/home"></item>
+
+    <item android:title="StoryApp">
+        <menu>
+            <item android:title="Random Story"
+                android:id="@+id/randomStory"></item>
+
+            <item android:title="Stories"
+                android:id="@+id/stories"></item>
+
+            <item android:title="Categories"
+                android:id="@+id/categories"></item>
+        </menu>
+    </item>
+
+    <item android:title="More">
+        <menu>
+            <item android:title="Contact Us"
+                android:id="@+id/contact"></item>
+
+            <item android:title="Rate Us"
+                android:id="@+id/rate"></item>
+
+        </menu>
+    </item>
+
+</menu>
